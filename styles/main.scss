@@ -1,0 +1,14 @@
+@import "~jspsych/css/jspsych.css";
+
+.jspsych-display-element {
+  background-color: #2a2a2a;
+}
+
+// HTML button response group CSS
+#jspsych-html-button-response-btngroup {
+  position: absolute !important;
+  bottom: 20px !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+  width: 100%;
+}
