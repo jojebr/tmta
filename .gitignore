@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+.jspsych-builder/
+packaged/
+
+# PDFs and other assets (optional - keep if needed)
+*.pdf
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
