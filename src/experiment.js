@@ -134,17 +134,9 @@ class CustomTMTPlugin {
     // Skapa HTML
     const html = `
       <div id="tmt-container" style="text-align: center;">
-        <div id="tmt-prompt" style="margin-bottom: 20px;">
-          <p><strong>${trial.is_practice ? 'ÖVNING' : 'TEST'}</strong></p>
-          <p>Dra ett streck från 1 och framåt i stigande ordning (1-2-3 osv.)</p>
-          <p id="error-message" style="color: red; min-height: 20px; font-weight: bold;"></p>
-        </div>
         <canvas id="tmt-canvas" width="${trial.canvas_width}" height="${trial.canvas_height}" 
                 style="border: 2px solid black; background-color: #f0f0f0; touch-action: none; cursor: crosshair;">
         </canvas>
-        <div style="margin-top: 10px; color: #666; font-size: 14px;">
-          <p>Antal lyft: <span id="lift-count">0</span></p>
-        </div>
       </div>
     `;
     
